@@ -3,7 +3,7 @@
 This section introduces regular expressions in Bash, including:
 
 - Using `grep` with regex
-- Pattern matching in scripts
+- Using regex in conditional statements
 
 ## Examples
 
@@ -13,15 +13,17 @@ This section introduces regular expressions in Bash, including:
    grep -E "^[a-z]+@[a-z]+\.[a-z]{2,}$" emails.txt
    ```
 
-2. **Pattern Matching**:
+2. **Regex in Conditionals**:
    ```bash
    #!/bin/bash
-   if [[ "hello123" =~ ^[a-z]+[0-9]+$ ]]; then
-       echo "Pattern matched!"
+   if [[ $1 =~ ^[0-9]+$ ]]; then
+       echo "Input is a number"
+   else
+       echo "Input is not a number"
    fi
    ```
 
 ## Exercises
 
 - Write a script that validates email addresses using regex.
-- Write a script that checks if a string contains only digits.
+- Write a script that checks if a string contains only alphabets.

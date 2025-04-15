@@ -8,18 +8,18 @@ This section covers working with arrays in Bash, including:
 
 ## Examples
 
-1. **Defining and Accessing Arrays**:
+1. **Defining an Array**:
    ```bash
    #!/bin/bash
    fruits=("apple" "banana" "cherry")
-   echo "First fruit: ${fruits[0]}"
+   echo ${fruits[0]}
    ```
 
-2. **Iterating Over Arrays**:
+2. **Iterating Over an Array**:
    ```bash
    #!/bin/bash
    for fruit in "${fruits[@]}"; do
-       echo "$fruit"
+       echo $fruit
    done
    ```
 
