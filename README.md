@@ -55,7 +55,6 @@ The course is divided into multiple directories, each focusing on a specific top
 - **47-Advanced-Scheduling**: Advanced scheduling tasks.
 - **48-Advanced-Networking**: Configuring interfaces and monitoring traffic.
 - **49-Advanced-Disk-Management**: Managing partitions and monitoring disk health.
-- **50-Final-Project**: A comprehensive project to apply all learned concepts.
 
 ## How to Use
 
